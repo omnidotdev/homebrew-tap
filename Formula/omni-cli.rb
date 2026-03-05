@@ -1,34 +1,36 @@
 class OmniCli < Formula
   desc "Agentic CLI for the Omni ecosystem"
   homepage "https://cli.omni.dev"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/omnidotdev/cli/releases/download/v#{version}/omni-aarch64-apple-darwin.tar.gz"
-      sha256 "f7722565e08f0682c5d7885c2068d87781d33681b9500c2aaa4f9378277e3bbe"
+      url "https://github.com/omnidotdev/cli/releases/download/v0.6.0/omni-aarch64-apple-darwin.tar.gz"
+      sha256 "1eb64bee93075bd6f641fe02dddeea48191c2099b256b5395bcf1d27bc96d5cc"
     end
-
     on_intel do
-      url "https://github.com/omnidotdev/cli/releases/download/v#{version}/omni-x86_64-apple-darwin.tar.gz"
-      sha256 "b5ad33add1ffd559f2cbf34fe3d552e9367df1da86b739fd3e360e78f03bb97e"
+      url "https://github.com/omnidotdev/cli/releases/download/v0.6.0/omni-x86_64-apple-darwin.tar.gz"
+      sha256 "70db1ca16bf48c445afbac48be67eb60b0fdcb413c37bae3372f7e0f9bb99868"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/omnidotdev/cli/releases/download/v#{version}/omni-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3452758dc5d07f20bf5cff865f3fb21b3704c14d98ab1212d3a6d7d50d04715f"
+      url "https://github.com/omnidotdev/cli/releases/download/v0.6.0/omni-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d9d28a8b122955c50ee7bd8fa6d569c82377d362eadf5c8da181918c669f3c21"
     end
-
     on_intel do
-      url "https://github.com/omnidotdev/cli/releases/download/v#{version}/omni-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "68667d875de0e85e0949aa39c3dabbe7c2555aea9436cb8c65a9485dbc0a9586"
+      url "https://github.com/omnidotdev/cli/releases/download/v0.6.0/omni-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3a637160ea7022c8489d47bb49b92e6ebe118cf6432fb626bf0e1670cba387ca"
     end
   end
 
   def install
     bin.install "omni"
+  end
+
+  test do
+    assert_match version.to_s, shell_output("#{bin}/omni --version")
   end
 end
