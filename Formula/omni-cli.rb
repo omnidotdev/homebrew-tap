@@ -7,22 +7,22 @@ class OmniCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/omnidotdev/cli/releases/download/v0.6.0/omni-aarch64-apple-darwin.tar.gz"
-      sha256 "1eb64bee93075bd6f641fe02dddeea48191c2099b256b5395bcf1d27bc96d5cc"
+      sha256 "09dc344de522b3bbefe4e508ee2e7ee20f2d898a4c0d00e0d2761780ab4c2336"
     end
     on_intel do
       url "https://github.com/omnidotdev/cli/releases/download/v0.6.0/omni-x86_64-apple-darwin.tar.gz"
-      sha256 "70db1ca16bf48c445afbac48be67eb60b0fdcb413c37bae3372f7e0f9bb99868"
+      sha256 "61275a578ac73b183ba2c4b6c66c0673d9d3e05b50e981908e5b2bc8760b60af"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/omnidotdev/cli/releases/download/v0.6.0/omni-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d9d28a8b122955c50ee7bd8fa6d569c82377d362eadf5c8da181918c669f3c21"
+      sha256 "58ed7a04a460d3b6cf1806552aa180984db0e89e38f8b0bbd8906edb9b0da192"
     end
     on_intel do
       url "https://github.com/omnidotdev/cli/releases/download/v0.6.0/omni-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3a637160ea7022c8489d47bb49b92e6ebe118cf6432fb626bf0e1670cba387ca"
+      sha256 "e3bb95a7fb71ffc7556a8bf73abd15c13014ce930f2f2af16e1aa29112fc2790"
     end
   end
 
