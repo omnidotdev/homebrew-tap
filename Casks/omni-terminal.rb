@@ -1,6 +1,6 @@
 cask "omni-terminal" do
-  version "0.2.3"
-  sha256 "6a33c4c13dee7eb2fd3c8c9c39cd1b740d8b264e07c96f5fec4e6f21b99167d3"
+  version "0.2.4"
+  sha256 "5078e6f0ac0856354314ee62efd9c733771f2ba5ef6a61e04ecbfa86f7ab58f4"
 
   url "https://github.com/omnidotdev/terminal/releases/download/v#{version}/OmniTerminal-v#{version}.dmg"
   name "Omni Terminal"
