@@ -2,7 +2,7 @@ class OmniCli < Formula
   desc "Agentic CLI for the Omni ecosystem"
   homepage "https://cli.omni.dev"
   version "0.6.0"
-  license "MIT"
+  license "Apache-2.0"
 
   on_macos do
     on_arm do

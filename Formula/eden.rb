@@ -2,7 +2,7 @@ class Eden < Formula
   desc "Developer onboarding preflight checks"
   homepage "https://eden.omni.dev"
   version "0.2.0"
-  license "MIT"
+  license "Apache-2.0"
 
   on_macos do
     on_arm do
