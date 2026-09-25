@@ -1,28 +1,28 @@
 class Kiln < Formula
   desc "Zero-config source-to-image container builder"
   homepage "https://kiln.omni.dev"
-  version "0.1.0"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/omnidotdev/kiln/releases/download/v0.1.0/kiln-aarch64-apple-darwin.tar.gz"
-      sha256 "f7d5fbc948dd0271bd9647a8bcbaa6c14c07eb9ab886f059a9c0726a1369fcba"
+      url "https://github.com/omnidotdev/kiln/releases/download/v0.2.0/kiln-aarch64-apple-darwin.tar.gz"
+      sha256 "15c75b48998db4cb688d8f863a950f6c6998d3f8611112354773bf1df92dcafa"
     end
     on_intel do
-      url "https://github.com/omnidotdev/kiln/releases/download/v0.1.0/kiln-x86_64-apple-darwin.tar.gz"
-      sha256 "f3ceb031116bb629688812e8bd15b8fc3fc4f7629bb52dffac6fd35de7b03c5b"
+      url "https://github.com/omnidotdev/kiln/releases/download/v0.2.0/kiln-x86_64-apple-darwin.tar.gz"
+      sha256 "3fe49eb604fefd3bf36d9e958f7f064c0607ef5773863cb32a09de236d031bd5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/omnidotdev/kiln/releases/download/v0.1.0/kiln-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7092650118f203d2e76d2f9328dab2e4815dcca1549f71eea1db7651c59d2563"
+      url "https://github.com/omnidotdev/kiln/releases/download/v0.2.0/kiln-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d67921c07a7d3d587837007019a9554b5675446d1d23f277a87fc29862473602"
     end
     on_intel do
-      url "https://github.com/omnidotdev/kiln/releases/download/v0.1.0/kiln-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ea6e0fb49caa7d8b5b56476d8c2696df34a8990133102d365051e74bea88468b"
+      url "https://github.com/omnidotdev/kiln/releases/download/v0.2.0/kiln-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ed550367c9b0b9905e56ab15c3597c3a55d0c51608d83b000bf40e704b039c78"
     end
   end
 
