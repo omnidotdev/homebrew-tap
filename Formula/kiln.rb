@@ -7,22 +7,22 @@ class Kiln < Formula
   on_macos do
     on_arm do
       url "https://github.com/omnidotdev/kiln/releases/download/v0.1.0/kiln-aarch64-apple-darwin.tar.gz"
-      sha256 "3d9e5d6a8fb3777845bceb2b9d1cd6a7ff75cdec520f4ba065052d3977edf1ad"
+      sha256 "f7d5fbc948dd0271bd9647a8bcbaa6c14c07eb9ab886f059a9c0726a1369fcba"
     end
     on_intel do
       url "https://github.com/omnidotdev/kiln/releases/download/v0.1.0/kiln-x86_64-apple-darwin.tar.gz"
-      sha256 "a8f32b2ca06218eb32e4679eb983bda1841ae53679065ffa1f71ae8c41815f34"
+      sha256 "f3ceb031116bb629688812e8bd15b8fc3fc4f7629bb52dffac6fd35de7b03c5b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/omnidotdev/kiln/releases/download/v0.1.0/kiln-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ec8ba0092fce3058752e2404e4364489e25612a792989cfc9e80216e89dbba27"
+      sha256 "7092650118f203d2e76d2f9328dab2e4815dcca1549f71eea1db7651c59d2563"
     end
     on_intel do
       url "https://github.com/omnidotdev/kiln/releases/download/v0.1.0/kiln-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4ac1cb745a7db21818024bb73cd620b9be574447332c030e80c40049a38f6a75"
+      sha256 "ea6e0fb49caa7d8b5b56476d8c2696df34a8990133102d365051e74bea88468b"
     end
   end
 
