@@ -7,22 +7,22 @@ class RunCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.0/run-aarch64-apple-darwin.tar.gz"
-      sha256 "329fcb4a68cdef68e48e7d312e3d83d379c25ee97ec0aae062521661546fb133"
+      sha256 "089466b7d872a63821f9306b15774f33a3f4ce0384ed2de817d41657887c81b7"
     end
     on_intel do
       url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.0/run-x86_64-apple-darwin.tar.gz"
-      sha256 "78b6085da9ff9d470c257b97c43610e5d4e29f3efac112a178c6f351bfb471c4"
+      sha256 "9d48e4036cc3261aeb266ac963976f76512dd14ce7b28499e251f9e0d4faa120"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.0/run-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "df98aa274357f4e56b5c3be3deb7880d9a2313b2bc83adebfb9452eaa8045e00"
+      sha256 "752f6132d97f8c3aa386e706cc52134ce775152a4e47ade03468cda1aa9d80ff"
     end
     on_intel do
       url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.0/run-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "23c16566f73465f6a6e9b66a7e6cc9da962e402c28eaa7bc9690c438d8f08e08"
+      sha256 "5889e329b6d16e5e7b89d1b6aec8ba686d47a5ac9b2418875bbeb121c58e955d"
     end
   end
 
