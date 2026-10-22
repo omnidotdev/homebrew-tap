@@ -1,28 +1,28 @@
 class RunCli < Formula
   desc "Self-hosting made simple"
   homepage "https://run.omni.dev"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.0/run-aarch64-apple-darwin.tar.gz"
-      sha256 "089466b7d872a63821f9306b15774f33a3f4ce0384ed2de817d41657887c81b7"
+      url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.1/run-aarch64-apple-darwin.tar.gz"
+      sha256 "c20d5211b8fe9688c521e265a71e6b8b11c9cb9169b02df60f99555444879471"
     end
     on_intel do
-      url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.0/run-x86_64-apple-darwin.tar.gz"
-      sha256 "9d48e4036cc3261aeb266ac963976f76512dd14ce7b28499e251f9e0d4faa120"
+      url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.1/run-x86_64-apple-darwin.tar.gz"
+      sha256 "d72ede3882c8f49ec5143d989cc9c970286c07b77930e013b437f366da91cacb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.0/run-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "752f6132d97f8c3aa386e706cc52134ce775152a4e47ade03468cda1aa9d80ff"
+      url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.1/run-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6823cd165a88827cfb9a0f76b72cd57f3bc61536a983167077c593a2c9f0d9fa"
     end
     on_intel do
-      url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.0/run-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5889e329b6d16e5e7b89d1b6aec8ba686d47a5ac9b2418875bbeb121c58e955d"
+      url "https://github.com/omnidotdev/run-cli/releases/download/v0.1.1/run-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5d78ef84f3bae046af79a43b9e2f79a84e11e8b2fa47bd091e19ae20980fb766"
     end
   end
 
