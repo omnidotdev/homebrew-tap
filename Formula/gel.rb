@@ -1,28 +1,28 @@
 class Gel < Formula
   desc "Declarative system management for Arch Linux"
   homepage "https://gel.omni.dev"
-  version "0.2.1"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/omnidotdev/gel/releases/download/v0.2.1/gel-aarch64-apple-darwin.tar.gz"
-      sha256 "af5b54f7d54d42d27bd7ed503aea9380b68e859e969c00be109d52b12416b00c"
+      url "https://github.com/omnidotdev/gel/releases/download/v0.3.0/gel-aarch64-apple-darwin.tar.gz"
+      sha256 "28ab4681275a070b647aade5072700fa7240944a437a2f5ce37b22f5a7df7bd9"
     end
     on_intel do
-      url "https://github.com/omnidotdev/gel/releases/download/v0.2.1/gel-x86_64-apple-darwin.tar.gz"
-      sha256 "a44090a16cdf23340b9554f65b1f363052e7b4e6095668f03b55f3bb17d13a95"
+      url "https://github.com/omnidotdev/gel/releases/download/v0.3.0/gel-x86_64-apple-darwin.tar.gz"
+      sha256 "81d70eeea91b4a164a7a7aad5ad6000f57951f468193c2897d92ff82bb9726ac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/omnidotdev/gel/releases/download/v0.2.1/gel-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3c2db42d2da8ffac756d4e5d0df6e075144d41abcf7d740339890665f5010e1f"
+      url "https://github.com/omnidotdev/gel/releases/download/v0.3.0/gel-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6328cb3f2a40958c24855b02042e96953fc4a9b022bc694fb812b151952ed6bd"
     end
     on_intel do
-      url "https://github.com/omnidotdev/gel/releases/download/v0.2.1/gel-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8c74ebed5c5e4ca8f1a2fc17580f68fddfe45520351e173996d0aa0862fb6354"
+      url "https://github.com/omnidotdev/gel/releases/download/v0.3.0/gel-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9049b039ccc98446c09fdb886e301d41e189eed799522ac8a5840692c9f88a65"
     end
   end
 
