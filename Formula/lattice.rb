@@ -1,28 +1,28 @@
 class Lattice < Formula
   desc "Federated GraphQL gateway for the Omni ecosystem."
   homepage "https://lattice.omni.dev"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/omnidotdev/lattice/releases/download/v0.2.0/lattice-aarch64-apple-darwin.tar.gz"
-      sha256 "4fc09a01783bffd6ef6a50c437084fc274d7e7a78598d7bdbc16d458111e3333"
+      url "https://github.com/omnidotdev/lattice/releases/download/v0.3.0/lattice-aarch64-apple-darwin.tar.gz"
+      sha256 "cf3e72e9b139176c9f8226ee01a9de9e12ab8d3f32a57f7b7d377c6412260b59"
     end
     on_intel do
-      url "https://github.com/omnidotdev/lattice/releases/download/v0.2.0/lattice-x86_64-apple-darwin.tar.gz"
-      sha256 "73f59b36f58309dcdcdb795dea2adfe7072bf2631639d785de568906da89fd92"
+      url "https://github.com/omnidotdev/lattice/releases/download/v0.3.0/lattice-x86_64-apple-darwin.tar.gz"
+      sha256 "1f9a753710a097d059e77ff46871354210ed39bf35a677a1a5e51befa3d6f1b8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/omnidotdev/lattice/releases/download/v0.2.0/lattice-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "818e30359ca3fbdbd424492a08d9a1533802d4bd3ecd196b8c6da8beb87fe9df"
+      url "https://github.com/omnidotdev/lattice/releases/download/v0.3.0/lattice-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "67327fca942dff16d7fc3aa10b6a403dc8ced7d0666ef191ffbb71835c3f5a68"
     end
     on_intel do
-      url "https://github.com/omnidotdev/lattice/releases/download/v0.2.0/lattice-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8f5e47d67c9d8656d4ff211662c47d9ae2800a2b5c8e39069566b25ee297c59d"
+      url "https://github.com/omnidotdev/lattice/releases/download/v0.3.0/lattice-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "42ee27ce3a8484f5cbc22ac837bb33fc6d2a3888879cb5a16928c3577c8d96b2"
     end
   end
 
