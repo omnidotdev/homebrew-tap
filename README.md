@@ -14,6 +14,7 @@ Official [Homebrew](https://brew.sh) tap for [Omni](https://omni.dev) packages.
 | Package | Description | Install |
 | --- | --- | --- |
 | [Omni CLI](Formula/omni-cli.rb) | Agentic CLI for the Omni ecosystem | `brew install omnidotdev/tap/omni-cli` |
+| [Fractal CLI](Formula/fractal.rb) | CLI for Fractal, the Omni deployment platform | `brew install omnidotdev/tap/fractal` |
 | [Omni Terminal](Casks/omni-terminal.rb) | GPU-accelerated terminal emulator built to run everywhere | `brew install --cask omnidotdev/tap/omni-terminal` |
 
 ## Usage
@@ -30,6 +31,9 @@ brew tap omnidotdev/tap
 # Omni CLI
 brew install omnidotdev/tap/omni-cli
 
+# Fractal CLI
+brew install omnidotdev/tap/fractal
+
 # Omni Terminal
 brew install --cask omnidotdev/tap/omni-terminal
 ```
@@ -39,6 +43,7 @@ brew install --cask omnidotdev/tap/omni-terminal
 ```bash
 brew update
 brew upgrade omnidotdev/tap/omni-cli
+brew upgrade omnidotdev/tap/fractal
 brew upgrade --cask omnidotdev/tap/omni-terminal
 ```
 
