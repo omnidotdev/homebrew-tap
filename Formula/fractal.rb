@@ -1,28 +1,28 @@
 class Fractal < Formula
   desc "CLI for Fractal, the Omni deployment platform"
   homepage "https://fractal.omni.dev"
-  version "0.1.0.12"
+  version "0.1.0.13"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/omnidotdev/fractal-cli/releases/download/cli-v12/fractal-darwin-arm64"
-      sha256 "37fe0ceefaf31f3577d43d06f054078d8c58bcaefca9e4563a7e4b6c3c9abdcb"
+      url "https://github.com/omnidotdev/fractal-cli/releases/download/cli-v13/fractal-darwin-arm64"
+      sha256 "8e5961a0c779df75fa274b0d95c0ca7d5ee53a43a6cca9676542e9ec9e831b1f"
     end
     on_intel do
-      url "https://github.com/omnidotdev/fractal-cli/releases/download/cli-v12/fractal-darwin-amd64"
-      sha256 "119b3d83ddb583e3cb2d799d60e19992307a93c5953217342204b51b2f3f016e"
+      url "https://github.com/omnidotdev/fractal-cli/releases/download/cli-v13/fractal-darwin-amd64"
+      sha256 "e24d531b1234c68fc9ed4dcb5762418fccfce2bde3f86ed2af6b20f232bf3632"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/omnidotdev/fractal-cli/releases/download/cli-v12/fractal-linux-arm64"
-      sha256 "c21d785aeed80d8ffc0b671147414caba561a7300fedc1ed25519710d74a09dd"
+      url "https://github.com/omnidotdev/fractal-cli/releases/download/cli-v13/fractal-linux-arm64"
+      sha256 "14c491a965a3c41293b33aa81f4f51bdfbf46b22cf9fd50aa78db68618e1d75f"
     end
     on_intel do
-      url "https://github.com/omnidotdev/fractal-cli/releases/download/cli-v12/fractal-linux-amd64"
-      sha256 "81e699c92e02d43bb2e5295da6638dee40de57138bb8ead820619396dc8c4d1d"
+      url "https://github.com/omnidotdev/fractal-cli/releases/download/cli-v13/fractal-linux-amd64"
+      sha256 "d4e84b2aa8bf9ce4e907e3b14c8078c79d03b5dd6b613479a58d4299a60a3069"
     end
   end
 
